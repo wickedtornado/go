@@ -6,6 +6,7 @@ import (
 	"net/http"
 )
 
+//main handle routes
 func main() {
 
 	fileServer := http.FileServer(http.Dir("./static"))

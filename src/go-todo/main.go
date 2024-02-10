@@ -18,7 +18,6 @@ import (
 )
 
 var rnd *renderer.Render
-var db *mgo.Database
 
 const (
 	hostname       string = "localhost:27017"
